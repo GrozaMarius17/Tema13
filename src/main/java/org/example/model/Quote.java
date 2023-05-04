@@ -12,6 +12,7 @@ public class Quote {
         this.quote = quote;
         this.favourite = favourite;
     }
+
     @Override
     public String toString() {
         return """
@@ -24,8 +25,9 @@ public class Quote {
                 """.formatted(id, author, quote, favourite);
 
 
-}
-public String getQuote() {
+    }
+
+    public String getQuote() {
         return quote;
-}
+    }
 }
